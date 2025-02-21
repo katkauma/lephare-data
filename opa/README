@@ -1,7 +1,12 @@
-# If you want to use the Meksin table (define at z<7) 
+# If you want to use the Meiksin table (define at z<7) 
 cp OPACITY_meiksin.dat OPACITY.dat
 
 
 # If you want to use the Madau table (define at z<8) 
 cp OPACITY_madau.dat OPACITY.dat
 
+# If you want to use the Inoue et al. 2014 table:
+cp OPACITY_inoue+2014.dat OPACITY.dat
+
+# If you want to use the Kauma et al. 2025 table:
+cp OPACITY_kauma.dat OPACITY.dat
